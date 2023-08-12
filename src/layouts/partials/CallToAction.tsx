@@ -27,11 +27,10 @@ const CallToAction = ({ data }: { data: PageData }) => {
                 </div>
                 <div className="md:col-7 md:order-1">
                   <h2
-                    dangerouslySetInnerHTML={markdownify(
-                      data.frontmatter.title
-                    )}
                     className="mb-2"
-                  />
+                  >
+                    {data.frontmatter.title}&nbsp;<span className="main-color">Codefee ?</span>
+                  </h2>
                   <p
                     dangerouslySetInnerHTML={markdownify(
                       data.frontmatter.description
@@ -40,7 +39,7 @@ const CallToAction = ({ data }: { data: PageData }) => {
                   />
                   {data.frontmatter.button.enable && (
                     <a
-                      className="btn btn-primary"
+                      className="btn btn-main-color"
                       href={data.frontmatter.button.link}
                     >
                       {data.frontmatter.button.label}

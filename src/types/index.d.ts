@@ -71,3 +71,13 @@ export type Button = {
   label: string;
   link: string;
 };
+
+export type CourseCard = {
+  thumbnail: string;
+  title: string;
+  categories: string[];
+  contents: {
+    header: string;
+    body?: string[];
+  }[];
+};

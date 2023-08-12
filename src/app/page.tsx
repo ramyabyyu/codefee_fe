@@ -27,16 +27,19 @@ const Home = () => {
         <div className="container">
           <div className="row justify-center">
             <div className="mb-16 text-center lg:col-7">
-              <h1
-                className="mb-4"
-                dangerouslySetInnerHTML={markdownify(banner.title)}
-              />
+              <h1 className="mb-4">
+                {banner.title}&nbsp;
+                <span className="main-color">Mahir</span>
+              </h1>
               <p
                 className="mb-8"
                 dangerouslySetInnerHTML={markdownify(banner.content ?? "")}
               />
               {banner.button!.enable && (
-                <a className="btn btn-primary" href={banner.button!.link}>
+                <a
+                  className="btn btn-main-color"
+                  href={banner.button!.link}
+                >
                   {banner.button!.label}
                 </a>
               )}
@@ -56,6 +59,8 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      <section className=""></section>
 
       {features.map((feature, index: number) => (
         <section
@@ -81,10 +86,17 @@ const Home = () => {
                   index % 2 !== 0 && "md:order-1"
                 }`}
               >
-                <h2
-                  className="mb-4"
-                  dangerouslySetInnerHTML={markdownify(feature.title)}
-                />
+                {index === 0 ? (
+                  <h2 className="mb-4">
+                    {feature.title}&nbsp;
+                    <span className="main-color">Codefee&nbsp;?</span>
+                  </h2>
+                ) : (
+                  <h2
+                    className="mb-4"
+                    dangerouslySetInnerHTML={markdownify(feature.title)}
+                  />
+                )}
                 <p
                   className="mb-8 text-lg"
                   dangerouslySetInnerHTML={markdownify(feature.content)}
@@ -99,7 +111,7 @@ const Home = () => {
                 </ul>
                 {feature.button.enable && (
                   <a
-                    className="btn btn-primary mt-5"
+                    className="btn mt-5 btn-main-color"
                     href={feature.button.link}
                   >
                     {feature.button.label}

@@ -142,12 +142,14 @@ const Header = () => {
           )}
           <ThemeSwitcher className="mr-5" />
           {navigation_button.enable && (
-            <Link
-              className="btn btn-outline-primary btn-sm hidden lg:inline-block"
-              href={navigation_button.link}
-            >
-              {navigation_button.label}
-            </Link>
+            <>
+              <Link
+                className="btn btn-sm hidden border border-yellow-700 px-4 py-2 font-medium text-yellow-700 hover:bg-yellow-700 hover:text-white dark:border-yellow-500 dark:text-yellow-500 dark:hover:bg-yellow-500 dark:hover:text-white lg:inline-block"
+                href={navigation_button.link}
+              >
+                {navigation_button.label}
+              </Link>
+            </>
           )}
         </div>
       </nav>

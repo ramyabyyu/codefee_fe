@@ -1,15 +1,15 @@
 {
   "site": {
-    "title": "Nextplate",
+    "title": "Codefee",
     "base_url": "https://nextplate.netlify.app",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
-    "logo": "/images/logo.png",
-    "logo_darkmode": "/images/logo-darkmode.png",
-    "logo_width": "150",
-    "logo_height": "27",
-    "logo_text": "Nextplate"
+    "logo": "/images/codefeeLogo.png",
+    "logo_darkmode": "/images/codefeeLogo.png",
+    "logo_width": "80",
+    "logo_height": "50",
+    "logo_text": "Codefee"
   },
 
   "settings": {
@@ -24,12 +24,12 @@
 
   "params": {
     "contact_form_action": "#",
-    "copyright": "Designed And Developed by [Zeon Studio](https://zeon.studio)"
+    "copyright": "Made With Love And Caffeine by [**Ramy Abyyu**](https://github.com/ramyabyyu)"
   },
 
   "navigation_button": {
     "enable": true,
-    "label": "Get Started",
+    "label": "Mulai Belajar",
     "link": "https://github.com/zeon-studio/nextplate"
   },
 

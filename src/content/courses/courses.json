@@ -1,0 +1,153 @@
+{
+  "response": {
+    "success": true,
+    "code": 200,
+    "message": "Data course found.",
+    "data": [
+      {
+        "thumbnail": "https://picsum.photos/200/300",
+        "title": "Membuat toko online dengan Laravel, Vue Js dan Tailwind Css",
+        "categories": ["Laravel", "Vue", "Tailwind"],
+        "contents": [
+          {
+            "header": "Laravel Installation",
+            "body": [
+              "Installasi Laravel dengan Composer",
+              "Installasi dan konfigurasi Tailwind Css",
+              "Instalasi dan konfigurasi sweet alert"
+            ]
+          },
+          {
+            "header": "Instalasi dan Konfigurasi Vue",
+            "body": [
+              "Instal vue menggunakan @vue-cli",
+              "Install buat hello world pertama"
+            ]
+          },
+          {
+            "header": "Role and Permissions",
+            "body": ["Instal laravel spatie", "konfigurasi larave spatie"]
+          },
+          {
+            "header": "Database",
+            "body": [
+              "Koneksi Database MySql",
+              "Membuat model dan migration",
+              "Eloquent Relationship",
+              "Eloquent Accessor, Mutator, dan Casting",
+              "Membuat Data Seeder"
+            ]
+          }
+        ]
+      },
+      {
+        "thumbnail": "https://picsum.photos/200/300",
+        "title": "Membuat toko online dengan Laravel, Vue Js dan Tailwind Css",
+        "categories": ["Laravel", "Vue", "Tailwind"],
+        "contents": [
+          {
+            "header": "Laravel Installation",
+            "body": [
+              "Installasi Laravel dengan Composer",
+              "Installasi dan konfigurasi Tailwind Css",
+              "Instalasi dan konfigurasi sweet alert"
+            ]
+          },
+          {
+            "header": "Instalasi dan Konfigurasi Vue",
+            "body": [
+              "Instal vue menggunakan @vue-cli",
+              "Install buat hello world pertama"
+            ]
+          },
+          {
+            "header": "Role and Permissions",
+            "body": ["Instal laravel spatie", "konfigurasi larave spatie"]
+          },
+          {
+            "header": "Database",
+            "body": [
+              "Koneksi Database MySql",
+              "Membuat model dan migration",
+              "Eloquent Relationship",
+              "Eloquent Accessor, Mutator, dan Casting",
+              "Membuat Data Seeder"
+            ]
+          }
+        ]
+      },
+      {
+        "thumbnail": "https://picsum.photos/200/300",
+        "title": "Membuat toko online dengan Laravel, Vue Js dan Tailwind Css",
+        "categories": ["Laravel", "Vue", "Tailwind"],
+        "contents": [
+          {
+            "header": "Laravel Installation",
+            "body": [
+              "Installasi Laravel dengan Composer",
+              "Installasi dan konfigurasi Tailwind Css",
+              "Instalasi dan konfigurasi sweet alert"
+            ]
+          },
+          {
+            "header": "Instalasi dan Konfigurasi Vue",
+            "body": [
+              "Instal vue menggunakan @vue-cli",
+              "Install buat hello world pertama"
+            ]
+          },
+          {
+            "header": "Role and Permissions",
+            "body": ["Instal laravel spatie", "konfigurasi larave spatie"]
+          },
+          {
+            "header": "Database",
+            "body": [
+              "Koneksi Database MySql",
+              "Membuat model dan migration",
+              "Eloquent Relationship",
+              "Eloquent Accessor, Mutator, dan Casting",
+              "Membuat Data Seeder"
+            ]
+          }
+        ]
+      },
+      {
+        "thumbnail": "https://picsum.photos/200/300",
+        "title": "Membuat toko online dengan Laravel, Vue Js dan Tailwind Css",
+        "categories": ["Laravel", "Vue", "Tailwind"],
+        "contents": [
+          {
+            "header": "Laravel Installation",
+            "body": [
+              "Installasi Laravel dengan Composer",
+              "Installasi dan konfigurasi Tailwind Css",
+              "Instalasi dan konfigurasi sweet alert"
+            ]
+          },
+          {
+            "header": "Instalasi dan Konfigurasi Vue",
+            "body": [
+              "Instal vue menggunakan @vue-cli",
+              "Install buat hello world pertama"
+            ]
+          },
+          {
+            "header": "Role and Permissions",
+            "body": ["Instal laravel spatie", "konfigurasi larave spatie"]
+          },
+          {
+            "header": "Database",
+            "body": [
+              "Koneksi Database MySql",
+              "Membuat model dan migration",
+              "Eloquent Relationship",
+              "Eloquent Accessor, Mutator, dan Casting",
+              "Membuat Data Seeder"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

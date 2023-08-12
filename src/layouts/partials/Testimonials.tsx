@@ -27,9 +27,10 @@ const Testimonials = ({ data }: { data: PageData }) => {
             <div className="row">
               <div className="mx-auto mb-12 text-center md:col-10 lg:col-8 xl:col-6">
                 <h2
-                  dangerouslySetInnerHTML={markdownify(data.frontmatter.title)}
                   className="mb-4"
-                />
+                >
+                  {data.frontmatter.title}&nbsp;<span className="main-color">Codefee</span>
+                </h2>
                 <p
                   dangerouslySetInnerHTML={markdownify(
                     data.frontmatter.description!

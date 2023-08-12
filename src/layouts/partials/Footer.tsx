@@ -34,7 +34,16 @@ const Footer = () => {
       </div>
       <div className="border-t border-border py-7 dark:border-darkmode-border">
         <div className="container text-center text-light dark:text-darkmode-light">
-          <p dangerouslySetInnerHTML={markdownify(copyright)} />
+          <p className="text-yellow-700 dark:text-yellow-500">
+            Made With Love And Caffeine by{" "}
+            <a
+              href="https://github.com/ramyabyyu"
+              target="_blank"
+              className="font-bold transition-all duration-200 ease-in-out hover:text-yellow-500 dark:hover:text-yellow-300"
+            >
+              Ramy Abyyu
+            </a>
+          </p>
         </div>
       </div>
     </footer>

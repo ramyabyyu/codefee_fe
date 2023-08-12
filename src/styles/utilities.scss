@@ -18,3 +18,11 @@
 .shadow {
   box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.05);
 }
+
+.main-color {
+  @apply text-yellow-700 dark:text-yellow-500;
+}
+
+.btn-main-color {
+  @apply bg-yellow-700 text-white dark:bg-yellow-500 dark:text-white;
+}

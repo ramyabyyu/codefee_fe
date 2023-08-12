@@ -35,19 +35,22 @@ const Logo = ({ src }: { src?: string }) => {
   const logoPath = src ? src : resolvedLogo;
 
   return (
-    <Link href="/" className="navbar-brand inline-block">
+    <Link href="/" className="navbar-brand flex items-center justify-center">
       {logoPath ? (
-        <Image
-          width={logo_width.replace("px", "") * 2}
-          height={logo_height.replace("px", "") * 2}
-          src={logoPath}
-          alt={title}
-          priority
-          style={{
-            height: logo_height.replace("px", "") + "px",
-            width: logo_width.replace("px", "") + "px",
-          }}
-        />
+        <>
+          <Image
+            width={logo_width.replace("px", "") * 2}
+            height={logo_height.replace("px", "") * 2}
+            src={logoPath}
+            alt={title}
+            priority
+            style={{
+              height: logo_height.replace("px", "") + "px",
+              width: logo_width.replace("px", "") + "px",
+            }}
+          />
+          <h2 className="m-0 p-0">{logo_text}</h2>
+        </>
       ) : logo_text ? (
         logo_text
       ) : (
